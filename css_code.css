@@ -1,0 +1,180 @@
+#title{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  
+ 
+
+}
+body{
+  background: #2e3c50;
+}
+
+
+.top_boarder{
+  
+  height: 60px;;
+  width: 100%;
+  text-align: center;
+  border-style:inset;
+  border-color: #ffffff;
+  border-radius: 10px;
+  
+
+}
+a {
+  text-decoration: none;
+  position: relative;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+
+a::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  left:0; 
+  bottom: 0%;
+  width: 0;
+  background-color: #e67e22;
+}
+
+a:hover::after{
+  content: '';
+  position: absolute;
+  height: 3px;
+  left:0; 
+  bottom: 0%;
+  width: 100%;
+  background-color: #e67e22;
+  transition: 0.4s ease-in;
+  
+  
+}
+.catagories{
+  float: left;
+  height: 90%;;
+  width: 30%;
+  text-align: left;
+  border-style:inset;
+  border-color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+button{
+  border:none;
+  background: #2a2f3b;
+  border-radius:5px;
+  padding:15px 30px;
+  font-size:18px;
+  cursor:pointer;
+  color: white;
+}
+
+button:hover{
+  background-color:#333845;
+  
+  border-left:  solid transparent;
+  border-right:  solid transparent ;
+  
+  transition: 0.3s;
+}
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color:#2a2f3b;
+  border-radius:5px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  color: white;
+  
+  
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+  color: white;
+  
+}
+
+.dropdown-options a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+  color: white;
+}
+
+.dropdown-options a:hover {
+  color: white;
+  background-color: #39404f;
+  border-radius:5px;
+}
+
+.wall_img{
+  height: 90%;;
+  width: 69%;
+  float: right;
+  text-align: left;
+  border-style:solid;
+  border-color: #ffffff;
+  border-radius: 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.wall_1{
+  
+  border-radius: 5%;
+  width: 30%;
+  height: 30%;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+  cursor: pointer;
+  border-width: 500px;
+
+}
+
+.desc_wall_1{
+position:absolute;
+left: 45%;
+top: 40%;
+transform: translateX(-60%);
+background-color: #2a2f3b;
+padding: 10px 15px;
+border-radius: 7px;
+}
+.desc_wall_2{
+position:absolute;
+left: 68.5%;
+top: 40%;
+transform: translateX(-60%);
+background-color: #2a2f3b;
+padding: 10px 15px;
+border-radius: 7px;
+}
+
+
+
+.box{
+  height: 60px;;
+  width: 100px;
+  text-align: center;
+  border-style:inset;
+  border-color: #ffffff;
+  border-radius: 10px;
+  
+}
